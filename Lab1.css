@@ -1,0 +1,41 @@
+* {
+    font-family: Open Sans;
+}
+
+body {
+    background-color: #f9fafc;
+}
+
+h4 {
+    margin-block-end:0;
+    margin-inline-start:3.75px;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+}
+
+.pagebuttons {
+    background-color: #000;
+    color:#FFF;
+    width:100%;
+    height:35px;
+    border-radius:20px;
+    border:none;
+}
+
+p {
+    border-left: 3px solid #69696a;
+    padding-left: 10px;
+}
+
+li {
+    margin:5px;
+}
+
+a {
+    text-decoration: none;
+    color:#000
+}
