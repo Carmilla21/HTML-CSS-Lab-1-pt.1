@@ -33,9 +33,10 @@ p {
 
 li {
     margin:5px;
+    color:#69696a;
 }
 
 a {
     text-decoration: none;
-    color:#000
+    color:#69696a
 }
