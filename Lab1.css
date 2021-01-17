@@ -4,6 +4,13 @@
 
 body {
     background-color: #f9fafc;
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+footer {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 h4 {
@@ -29,6 +36,8 @@ ul {
 p {
     border-left: 3px solid #69696a;
     padding-left: 10px;
+    font-size: 15px;
+    margin-block-end:2em;
 }
 
 li {
@@ -36,7 +45,34 @@ li {
     color:#69696a;
 }
 
-a {
+.listlink {
     text-decoration: none;
     color:#69696a
 }
+
+.listlink:hover {
+    color:#000;
+}
+
+@media screen and (min-width: 768px) {
+
+.rightmenu {
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    justify-content:flex-end;
+    top:-25px;
+
+}
+
+#button1{
+    width:6em;
+}
+
+ul {
+    display:flex;
+
+}
+
+}
+
